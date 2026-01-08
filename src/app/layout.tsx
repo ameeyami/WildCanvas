@@ -59,12 +59,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Wild Canvas",
+    url: "https://wildcanvas.vercel.app",
+    images: [
+      {
+        url: "https://wildcanvas.vercel.app/hero-background.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Wild Canvas - Relaxing Anime Art & Videos",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Wild Canvas | Relaxing Anime Art",
     description:
       "Escape into beautifully crafted worlds of Ghibli-inspired scenery and heartwarming animations.",
+    images: ["https://wildcanvas.vercel.app/hero-background.jpg"],
   },
 };
 
